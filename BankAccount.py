@@ -27,12 +27,15 @@ class BankAccount:
         return self.balance
     
     def add_interest(self):
+        print(self.balance)
         if self.account_type == 'savings':
             interest = round((self.balance * 0.01), 2)
             self.balance += interest
+            print(self.balance)
         else:
             interest = round((self.balance * 0.00083), 2)
             self.balance += interest
+            print(self.balance)
 
     def print_statement(self):
         print(f'{self.full_name}\nAccount No.: ****{str(self.account_number)[-4:]}\nBalance: ${self.balance}')
@@ -40,20 +43,20 @@ class BankAccount:
 
 #Example 1
 marco = BankAccount("Marco Yip")
-marco.deposit(100)
-marco.withdraw(50)
-marco.add_interest()
-marco.print_statement()
+# marco.deposit(100)
+# marco.withdraw(50)
+# marco.add_interest()
+# marco.print_statement()
 
 
 #Example 2
-# joi = BankAccount("Joy Anderson")
+joi = BankAccount("Joy Anderson")
 # joi.withdraw(50)
 # joi.add_interest()
 # joi.print_statement()
 
 #Example 3
-# mike = BankAccount("Mike Lee")
+mike = BankAccount("Mike Lee")
 # mike.deposit(200)
 # mike.withdraw(100)
 # mike.get_balance()
@@ -61,21 +64,28 @@ marco.print_statement()
 # mike.print_statement()
 
 #Example code for Mitchell
-    # mitchell = BankAccount("Mitchell Hudson", 3141592)
-    # mitchell.deposit(400)
-    # mitchell.print_statement()
-    # mitchell.add_interest()
-    # mitchell.print_statement()
-    # mitchell.withdraw(150)
-    # mitchell.print_statement()
+mitchell = BankAccount("Mitchell Hudson", 3141592)
+# mitchell.deposit(400)
+# mitchell.print_statement()
+# mitchell.add_interest()
+# mitchell.print_statement()
+# mitchell.withdraw(150)
+# mitchell.print_statement()
 
 #add savings account
 ben = BankAccount("Ben Joe")
-ben.deposit(1000)
-ben.add_interest()
-ben.print_statement()
+# ben.deposit(1000)
+# ben.add_interest()
+# ben.print_statement()
 
 amy = BankAccount("Amy Joe", "savings")
-amy.deposit(1000)
-amy.add_interest()
-amy.print_statement()
+# amy.deposit(1000)
+# amy.add_interest()
+# amy.print_statement()
+
+bank = [marco, joi, mike, mitchell, ben, amy]
+
+def adding_interest():
+    for account in bank:
+        account.add_interest()
+adding_interest()

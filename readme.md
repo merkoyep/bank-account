@@ -66,7 +66,7 @@ Stretch Challenges (Optional)
 [x]Create a checking and a savings account
 [x]Add interest to each account
 [x]Print a statement for each account
-[]Create a list called: bank. Add all of your accounts to bank. Write a function that loops over all accounts in the list and calls the add_interst method of each.
+[x]Create a list called: bank. Add all of your accounts to bank. Write a function that loops over all accounts in the list and calls the add_interst method of each.
 []Create an "application". Use a loop to prompt us for an action. Actions can be:
     []Create account
     []Prompt for name, number, and balance.
