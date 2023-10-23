@@ -10,9 +10,9 @@ Submission Requirements:
     []Submit the link to your repo on Gradescope.
 Assignment Requirements:
 Your job is to create a Class that defines a bank account. It should define:
-    []the owners name, 
-    []account number, 
-    []and balance as attributes.
+    [x]the owners name, 
+    [x]account number, 
+    [x]and balance as attributes.
 
 Your BankAccount class should also define methods that perform common banking activities like 
     []deposit, 
@@ -22,11 +22,11 @@ Your BankAccount class should also define methods that perform common banking ac
 Follow the steps below:
 
 []Your Python program should be created in one file called BankAccount.py.
-    []Define a BankAccount class.
-[]A bank account should have the following attributes:
-    []full_name - the full name of the bank account account owner.
-    []account_number - randomly generated 8 digit number, unique per account.
-    []balance - the balance of money in the account, should start at 0.
+    [x]Define a BankAccount class.
+[x]A bank account should have the following attributes:
+    [x]full_name - the full name of the bank account account owner.
+    [x]account_number - randomly generated 8 digit number, unique per account.
+    [x]balance - the balance of money in the account, should start at 0.
 []Then define the following methods for the BankAccount class:
     []The deposit method will take one parameter amount and will add amount to the balance. 
     []Also, it will print the message: “Amount deposited: $X.XX new balance: $Y.YY”
