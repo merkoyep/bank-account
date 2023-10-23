@@ -45,11 +45,6 @@ marco.withdraw(50)
 marco.add_interest()
 marco.print_statement()
 
-a = BankAccount("a", "savings")
-a.deposit(100)
-a.withdraw(50)
-a.add_interest()
-a.print_statement()
 
 #Example 2
 # joi = BankAccount("Joy Anderson")
@@ -73,3 +68,14 @@ a.print_statement()
     # mitchell.print_statement()
     # mitchell.withdraw(150)
     # mitchell.print_statement()
+
+#add savings account
+ben = BankAccount("Ben Joe")
+ben.deposit(1000)
+ben.add_interest()
+ben.print_statement()
+
+amy = BankAccount("Amy Joe", "savings")
+amy.deposit(1000)
+amy.add_interest()
+amy.print_statement()

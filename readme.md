@@ -61,11 +61,11 @@ Follow the steps below:
     [x]Print a statement
 
 Stretch Challenges (Optional)
-[]Add an attribute to set the account type: checking or savings.
-[]A savings account gets 1.2% insterest (that's 1% per month)
-[]Create a checking and a savings account
-[]Add interest to each account
-[]Print a statement for each account
+[x]Add an attribute to set the account type: checking or savings.
+[x]A savings account gets 1.2% insterest (that's 1% per month)
+[x]Create a checking and a savings account
+[x]Add interest to each account
+[x]Print a statement for each account
 []Create a list called: bank. Add all of your accounts to bank. Write a function that loops over all accounts in the list and calls the add_interst method of each.
 []Create an "application". Use a loop to prompt us for an action. Actions can be:
     []Create account
