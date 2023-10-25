@@ -1,6 +1,6 @@
 #Bank Account 🏦
 
-##Introduction
+##Introduction##
 Project: Using object-oriented programming concepts, your task is to create a Python program that simulates a bank account.
 I was able to complete the working code and add commented out examples in the BankAccount.py file. After this program ran and passed my tests, I proceeded to build a second version of the program with the bank.py file where the Bank class takes a list of bank accounts and is able to handle the same functionality. Finally, I created a third file called application.py that utilizes helper functions and methods from the BankAccount class to create a CLI program.
 
